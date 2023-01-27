@@ -5,6 +5,16 @@
  *     Next *ListNode
  * }
  */
+
+// this code node needed in leed code, for not showing error added
+package main
+
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
+// till this block
 func reverseList(head *ListNode) *ListNode {
 	var prev *ListNode
 	cur := head
